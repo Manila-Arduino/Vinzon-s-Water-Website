@@ -1,6 +1,6 @@
 {
-  "name": "Title",
-  "short_name": "Title",
+  "name": "Vinzon's Water",
+  "short_name": "Vinzon's Water",
   "icons": [
     {
       "src": "/images/icons/maskable_icon_x48.png",
@@ -41,8 +41,8 @@
   ],
   "scope": "/",
   "start_url": "/",
-  "description": "{{About}}",
+  "description": "Your source for real-time environmental data: pH, temperature, TDS, and turbidity - all at your fingertips with our cutting-edge Arduino device.",
   "display": "standalone",
-  "theme_color": "{{manifest_bg}}",
-  "background_color": "{{manifest_bg}}"
+  "theme_color": "#254356",
+  "background_color": "#254356"
 }

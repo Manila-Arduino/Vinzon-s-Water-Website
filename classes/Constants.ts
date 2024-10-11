@@ -1,10 +1,10 @@
 export abstract class StorageNames {}
 
 export const Constants = {
-  ProjTitle: "Title",
-  ProjTitle1: "Title",
-  ProjTitle2: "",
-  About: "{{About}}",
+  ProjTitle: "Vinzon's Water",
+  ProjTitle1: "Vinzon's",
+  ProjTitle2: "Water",
+  About: "Your source for real-time environmental data: pH, temperature, TDS, and turbidity - all at your fingertips with our cutting-edge Arduino device.",
   NodeMCUIP: "http://192.168.4.1",
   DefaulMapZoom: 13,
 };
@@ -15,8 +15,8 @@ export const LocalStorage = {
 };
 
 export const Config = {
-  useFirebase: false,
-  useSignIn: false,
+  useFirebase: true,
+  useSignIn: true,
   useRegister: false,
   useFCM: false,
   vapidKey: "",

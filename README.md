@@ -1,6 +1,6 @@
-# Title: Title
+# Title: Vinzon's Water
 
-The application is currently deployed at [{link}]({link})
+The application is currently deployed at [https://vinzons-water.web.app](https://vinzons-water.web.app)
 
 ## Screenshot
 
@@ -8,4 +8,4 @@ The application is currently deployed at [{link}]({link})
 
 ## About
 
-{{About}}
+Your source for real-time environmental data: pH, temperature, TDS, and turbidity - all at your fingertips with our cutting-edge Arduino device.

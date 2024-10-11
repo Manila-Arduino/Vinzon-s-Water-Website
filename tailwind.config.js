@@ -27,6 +27,15 @@ module.exports = {
         text: "#FFFFFF",
 
         // custom - from Figma
+        white: '#FFFFFF',
+        bg_icon: '#254356',
+        white: '#FFFFFF',
+        gray: '#D0DEE6',
+        text: '#004382',
+        text: '#D4D4D2',
+        black: '#000000',
+        bg: '#5091B9',
+        footer: '#8197AD',
 
       },
     },
