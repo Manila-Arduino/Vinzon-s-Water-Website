@@ -11,6 +11,7 @@ import {
 } from "firebase/firestore";
 import { db } from "@/app/firebase";
 import notify from "@/myfunctions/notify";
+import { Log } from "./Log";
 
 class MyUserFHT extends FHT<MyUser> {
   collectionName = "user";
@@ -25,10 +26,15 @@ class AdminSettingsFHT extends FHT<AdminSettings> {
   collectionName = "admin";
 }
 
+class LogFHT extends FHT<Log> {
+  collectionName = "logs";
+}
+
 export default abstract class FH {
   static AdminSettings = new AdminSettingsFHT();
   static MyUser = new MyUserFHT();
   static Device = new DeviceFHT();
+  static Log = new LogFHT();
 
   static async Batch(
     name: string,

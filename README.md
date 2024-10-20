@@ -4,7 +4,7 @@ The application is currently deployed at [https://vinzons-water.web.app](https:/
 
 ## Screenshot
 
-![alt text](https://github.com/Manila-Arduino/{{Repo_Name}}/blob/main/public/images/screenshot.png)
+![alt text](https://github.com/Manila-Arduino/Vinzon's-Water-Website/blob/main/public/images/screenshot.png)
 
 ## About
 

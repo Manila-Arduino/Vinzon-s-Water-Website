@@ -1,8 +1,8 @@
-import { MouseEventHandler } from "react";
 import ChevronRight from "./ChevronRight";
 
 interface ChevronLeftProps {
-  onClick?: MouseEventHandler<SVGSVGElement>;
+  onClick?: () => void;
+  disabled?: boolean;
   size?: number;
   color?: string;
   className?: string;
@@ -10,6 +10,7 @@ interface ChevronLeftProps {
 
 const ChevronLeft: React.FC<ChevronLeftProps> = ({
   onClick,
+  disabled = false,
   size,
   color,
   className,
@@ -26,6 +27,7 @@ const ChevronLeft: React.FC<ChevronLeftProps> = ({
         color={color}
         className={className}
         onClick={onClick}
+        disabled={disabled}
       />
     </div>
   );

@@ -1,5 +1,6 @@
-export interface Device {
+export interface Log {
   id: string;
+  isActivated: boolean;
   ph_1: number;
   temp_1: number;
   turb_1: number;
@@ -8,6 +9,4 @@ export interface Device {
   temp_2: number;
   turb_2: number;
   tds_2: number;
-  isActivated: boolean;
-  timestamp: number;
 }

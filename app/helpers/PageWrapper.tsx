@@ -7,8 +7,11 @@ import {
 } from "react";
 import MainPage from "../custom/MainPage";
 //! /* Add Pages Here */
+import LogsPage from "../custom/LogsPage";
 import Overlay from "@/components/templates/Overlay";
 import Footer from "@/components/templates/Footer";
+import DashboardIcon from "@/components/custom/DashboardIcon";
+import LogsIcon from "@/components/custom/LogsIcon";
 
 //? ----------------------
 //? PAGES
@@ -17,6 +20,7 @@ import Footer from "@/components/templates/Footer";
 
 export const enum Pages {
   Main,
+  Logs,
 }
 
 export const PageWrapperContext = createContext({
@@ -46,15 +50,16 @@ const PageWrapper: React.FC<PageWrapperProps> = ({}) => {
     >
       <Footer
         className=""
-        // pages={{
-        //   [Pages.Main]: <ControlsIcon />,
-        //   [Pages.Settings]: <SettingsIcon />,
-        // }}
+        pages={{
+          [Pages.Main]: <DashboardIcon />,
+          [Pages.Logs]: <LogsIcon />,
+        }}
       />
 
       <div className="w-full h-full overflow-y-auto">
         {page === Pages.Main && <MainPage />}
         {/*//! Add Page Mapping Here */}
+        {page === Pages.Logs && <LogsPage />}
       </div>
       {overlay && <Overlay setOverlay={setOverlay}>{overlay}</Overlay>}
     </PageWrapperContext.Provider>

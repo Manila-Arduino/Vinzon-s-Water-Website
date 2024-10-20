@@ -1,10 +1,11 @@
 export abstract class StorageNames {}
 
 export const Constants = {
-  ProjTitle: "Vinzon's Water",
+  ProjTitle: "HYPUREX",
   ProjTitle1: "Vinzon's",
   ProjTitle2: "Water",
-  About: "Your source for real-time environmental data: pH, temperature, TDS, and turbidity - all at your fingertips with our cutting-edge Arduino device.",
+  About:
+    "Your source for real-time environmental data: pH, temperature, TDS, and turbidity - all at your fingertips with our cutting-edge Arduino device.",
   NodeMCUIP: "http://192.168.4.1",
   DefaulMapZoom: 13,
 };
